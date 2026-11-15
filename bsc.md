@@ -189,7 +189,7 @@ bool millerrabin(ull p) {
     int s = __builtin_ctzll(p - 1);
     ull d = p - 1 >> s;
 
-    for (ull base: {2, 325, 9375, 28178, 450775, 9780504, 1795265022}) {
+    for (ull base: {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}) {
         if (p == base) return true;
         if (p % base == 0) return false;
         if (comp(base, p, s, d)) return false;
@@ -198,6 +198,7 @@ bool millerrabin(ull p) {
 }
 
 int main() {
+    cin.tie(0)->sync_with_stdio(0);
     int t; cin >> t;
     while (t--) {
         ull n; cin>> n;
@@ -303,7 +304,7 @@ int main() {
 ```
 :::
 
-:::spoiler 計算字母出現頻率
+:::spoiler string + sort
 ```cpp!
 #include <iostream>
 #include <algorithm>
