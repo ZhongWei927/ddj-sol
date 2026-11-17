@@ -1,7 +1,7 @@
 # 15^th^ 初階班 $(\texttt{c001}\sim)$
 
 !!! col _2
-    {% include-markdown '..\sol\c001.md' %}
+    {% include-markdown '..\\sol\\c001.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "cout"
@@ -10,7 +10,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c002.md' %}
+    {% include-markdown '..\\sol\\c002.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "變數宣告+基本輸入輸出"
@@ -19,7 +19,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c004.md' %}
+    {% include-markdown '..\\sol\\c004.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "if 判斷式"
@@ -32,7 +32,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c005.md' %}
+    {% include-markdown '..\\sol\\c005.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "if 判斷式"
@@ -45,7 +45,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c006.md' %}
+    {% include-markdown '..\\sol\\c006.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "if 判斷式"
@@ -58,7 +58,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c007.md' %}
+    {% include-markdown '..\\sol\\c007.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "for 迴圈"
@@ -67,7 +67,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c008.md' %}
+    {% include-markdown '..\\sol\\c008.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "while 迴圈 + 輾轉相除法"
@@ -80,7 +80,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c009.md' %}
+    {% include-markdown '..\\sol\\c009.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "while 迴圈"
@@ -89,7 +89,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c010.md' %}
+    {% include-markdown '..\\sol\\c010.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "while, break"
@@ -102,7 +102,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c011.md' %}
+    {% include-markdown '..\\sol\\c011.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "while, break, continue"
@@ -111,7 +111,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c012.md' %}
+    {% include-markdown '..\\sol\\c012.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "while 迴圈 + if 判斷式"
@@ -124,7 +124,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c013.md' %}
+    {% include-markdown '..\\sol\\c013.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "[數學] 迭代式擴充歐幾里得演算法"
@@ -133,7 +133,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c014.md' %}
+    {% include-markdown '..\\sol\\c014.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "for 迴圈 + 陣列"
@@ -146,7 +146,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c015.md' %}
+    {% include-markdown '..\\sol\\c015.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "sort 排序 + 陣列"
@@ -159,7 +159,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c016.md' %}
+    {% include-markdown '..\\sol\\c016.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "bubble sort"
@@ -172,7 +172,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c017.md' %}
+    {% include-markdown '..\\sol\\c017.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "bubble sort"
@@ -185,7 +185,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c019.md' %}
+    {% include-markdown '..\\sol\\c019.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列複製"
@@ -202,7 +202,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c020.md' %}
+    {% include-markdown '..\\sol\\c020.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列 + 運算子"
@@ -215,7 +215,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c021.md' %}
+    {% include-markdown '..\\sol\\c021.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "[下學期] 遞迴"
@@ -224,7 +224,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c022.md' %}
+    {% include-markdown '..\\sol\\c022.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "[下學期] 遞迴"
@@ -233,7 +233,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c023.md' %}
+    {% include-markdown '..\\sol\\c023.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列 + 取模"
@@ -242,7 +242,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c024.md' %}
+    {% include-markdown '..\\sol\\c024.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列 + 小實作"
@@ -255,7 +255,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c026.md' %}
+    {% include-markdown '..\\sol\\c026.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列 + 取模"
@@ -276,7 +276,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c028.md' %}
+    {% include-markdown '..\\sol\\c028.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列, 無條件進位"
@@ -285,7 +285,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c031.md' %}
+    {% include-markdown '..\\sol\\c031.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "陣列"
@@ -294,7 +294,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c032.md' %}
+    {% include-markdown '..\\sol\\c032.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "string 字串"
@@ -303,7 +303,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c033.md' %}
+    {% include-markdown '..\\sol\\c033.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "string + 陣列"
@@ -312,7 +312,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c034.md' %}
+    {% include-markdown '..\\sol\\c034.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "sort 排序"
@@ -325,7 +325,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\c035.md' %}
+    {% include-markdown '..\\sol\\c035.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "string + 取模 + 型態轉換"

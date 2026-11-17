@@ -1,7 +1,7 @@
 # DDJ-v1 題目 $(\text{aXXX}, \text{bXXX})$
 
 !!! col _2
-    {% include-markdown '..\sol\a014.md' %}
+    {% include-markdown '..\\\sol\\\a014.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "code"
@@ -10,7 +10,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\a019.md' %}
+    {% include-markdown '..\\\sol\\\a019.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "code"
@@ -19,7 +19,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\a160.md' %}
+    {% include-markdown '..\\sol\\a160.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "code"
@@ -28,7 +28,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\a191.md' %}
+    {% include-markdown '..\\sol\\a191.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "雙層迴圈"
@@ -41,7 +41,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\a192.md' %}
+    {% include-markdown '..\\sol\\a192.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "雙層迴圈"
@@ -54,7 +54,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\a193.md' %}
+    {% include-markdown '..\\sol\\a193.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "雙層迴圈"
@@ -67,7 +67,7 @@
             ```
 
 !!! col _2
-    {% include-markdown '..\sol\a987.md' %}
+    {% include-markdown '..\\sol\\a987.md' %}
 !!! col _2 clear
     ??? note "C++ 程式碼"
         === "code"
