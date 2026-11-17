@@ -1,0 +1,117 @@
+site_name: Dandanjudge-v2 Solutions
+site_url: https://zhongwei927.github.io/ddj-sol/
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette: 
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - toc.follow
+    # - toc.integrate
+    - navigation.tracking
+    - navigation.sections
+    - search.highlight
+  font:
+    text: Chiron GoRound TC
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/xml
+  favicon: assets/images/FDCS.png
+
+nav:
+  - 首頁: index.md
+  - 一般題目: general.md
+  - 段考題: exam.md
+  - APCS 歷屆題目: apcs.md
+  - 其他題目: misc.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.snippets:
+      check_paths: true
+      url_download: false
+      url_max_size: 33554432
+      url_timeout: 10
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      
+
+
+plugins:
+  # https://github.com/mondeja/mkdocs-include-markdown-plugin
+  - include-markdown
+  - git-revision-date-localized:
+      enable_creation_date: false
+      enabled: true
+      type: date
+  - git-authors:
+      enabled: true
+  - search:
+      lang:
+      - en
+      - zh
+  - toggle-sidebar:
+      toggle_button: navigation
+
+extra_css:
+   - css/massilia-columns.css
+   - css/style.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZhongWei927/ddj-sol/
+    - icon: material/book-open-variant
+      link: https://zhongwei927.github.io/ddj-sol/
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/y49bnJxDMh/
+    - icon: fontawesome/solid/scale-unbalanced-flip
+      link: https://dandanjudge-v2.fdhs.tyc.edu.tw/
+
+repo_url: https://github.com/ZhongWei927/ddj-sol/
+repo_name: zhongwei927/ddj-sol
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 by <a href="https://github.com/ZhongWei927/">wei</a>
