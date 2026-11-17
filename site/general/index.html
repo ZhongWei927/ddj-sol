@@ -20,7 +20,7 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/FDCS.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
@@ -46,8 +46,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chiron+GoRound+TC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Chiron GoRound TC";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -58,10 +58,20 @@
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-XXXXXXXXXX"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-XXXXXXXXXX",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
-  </head>
+  <script src="../assets/javascripts/toggle-sidebar.js"></script></head>
   
   
     
@@ -80,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#15th-c001" class="md-skip">
+        <a href="#15th-textttc001sim" class="md-skip">
           Skip to content
         </a>
       
@@ -89,39 +99,48 @@
       
     </div>
     
-      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
-        
-      </div>
     
-    
-      
+      <!-- reference: https://github.com/cp-algorithms/cp-algorithms/blob/main/src/overrides/partials/header.html -->
+
+
 
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
+  <script>
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Dandanjudge-v2 Solutions" class="md-header__button md-logo" aria-label="Dandanjudge-v2 Solutions" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.89 3 1.96.4L11.11 21l-1.96-.4zm6.7 9L16 8.41V5.58L22.42 12 16 18.41v-2.83zM1.58 12 8 5.58v2.83L4.41 12 8 15.58v2.83z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+      <span class="md-visually-hidden">Navigation</span>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Dandanjudge-v2 Solutions
+            <a href=".." title="Dandanjudge-v2 Solutions" aria-label="Dandanjudge-v2 Solutions" data-md-component="logo">
+              Dandanjudge-v2 Solutions
+            </a>
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
-            
-              一般題目
-            
+            <a href="#" onclick="scrollToTop()">
+              
+                一般題目
+              
+            </a>
           </span>
         </div>
       </div>
@@ -158,8 +177,8 @@
     
     
     
-    
-      <div class="md-header__source">
+    <div class="md-header__source">
+      
         <a href="https://github.com/ZhongWei927/ddj-sol/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
@@ -169,8 +188,20 @@
     zhongwei927/ddj-sol
   </div>
 </a>
-      </div>
-    
+      
+    </div>
+
+    <div class="md-header__option">
+      <a href="https://discord.gg/y49bnJxDMh/" title="Discord" class="md-header__button md-icon" aria-label="Discord">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"/></svg>
+      </a>
+    </div>
+
+    <div class="md-header__option">
+      <a href="https://dandanjudge-v2.fdhs.tyc.edu.tw/" title="Dandanjudge-v2" class="md-header__button md-icon" aria-label="GitHub Sponsors">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M118.2 62.4C101.5 56.8 92.4 38.6 98 21.9s23.7-25.8 40.5-20.3l113 37.7C265.4 15.8 291.1 0 320.4 0c44.2 0 80 35.8 80 80 0 3-.2 5.9-.5 8.8l122.6 40.9c16.8 5.6 25.8 23.7 20.2 40.5S519 196 502.2 190.4l-135.5-45.2c-4.5 3.2-9.3 5.9-14.4 8.2v326.7c0 17.7-14.3 32-32 32h-192c-17.7 0-32-14.3-32-32s14.3-32 32-32h160V153.4c-21-9.2-37.2-27-44.2-49zM200.8 288l-72.5-124.2L55.9 288zm-72.4 96c-62.9 0-115.2-34-126-78.9-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8L247.7 273c5.7 9.8 9.3 21.1 6.7 32.1-10.8 44.8-63.1 78.9-126 78.9m382.8-92.2L438.8 416h144.9l-72.4-124.2zm126 141.3c-10.8 44.9-63.1 78.9-126 78.9s-115.2-34-126-78.9c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8L630.5 401c5.7 9.8 9.3 21.1 6.7 32.1"/></svg>
+      </a>
+    </div>
   </nav>
   
 </header>
@@ -199,7 +230,7 @@
     <a href=".." title="Dandanjudge-v2 Solutions" class="md-nav__button md-logo" aria-label="Dandanjudge-v2 Solutions" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.89 3 1.96.4L11.11 21l-1.96-.4zm6.7 9L16 8.41V5.58L22.42 12 16 18.41v-2.83zM1.58 12 8 5.58v2.83L4.41 12 8 15.58v2.83z"/></svg>
 
     </a>
     Dandanjudge-v2 Solutions
@@ -313,10 +344,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#c001" class="md-nav__link">
+  <a href="#c001-hello-world" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c001
+        c001 hello world!
       
     </span>
   </a>
@@ -324,10 +355,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c002" class="md-nav__link">
+  <a href="#c002-a-b-problem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c002
+        c002 A + B Problem
       
     </span>
   </a>
@@ -335,10 +366,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c004" class="md-nav__link">
+  <a href="#c004-basic-sgn" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c004
+        c004 BASIC 的 SGN 函數
       
     </span>
   </a>
@@ -349,7 +380,7 @@
   <a href="#c005" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c005
+        c005 妳那裡現在幾點了？
       
     </span>
   </a>
@@ -360,7 +391,7 @@
   <a href="#c006" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c006
+        c006 文文的求婚
       
     </span>
   </a>
@@ -368,10 +399,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c007" class="md-nav__link">
+  <a href="#c007-permutations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c007
+        c007 Permutations
       
     </span>
   </a>
@@ -379,10 +410,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c008" class="md-nav__link">
+  <a href="#c008-i-hate-doomscrolling" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c008
+        c008 I hate doomscrolling!
       
     </span>
   </a>
@@ -390,10 +421,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c009" class="md-nav__link">
+  <a href="#c009-trailing-zeros" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c009
+        c009 Trailing Zeros
       
     </span>
   </a>
@@ -401,10 +432,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c010" class="md-nav__link">
+  <a href="#c010-qq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c010
+        c010 為什麼我有蠶豆症啦QQ (上)
       
     </span>
   </a>
@@ -412,10 +443,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c011" class="md-nav__link">
+  <a href="#c011-qq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c011
+        c011 為什麼我有蠶豆症啦QQ (下)
       
     </span>
   </a>
@@ -426,7 +457,7 @@
   <a href="#c012" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c012
+        c012 我大括號絕不下放！
       
     </span>
   </a>
@@ -434,10 +465,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c013" class="md-nav__link">
+  <a href="#c013-i-despise-doomscrolling" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c013
+        c013 I despise doomscrolling!
       
     </span>
   </a>
@@ -448,7 +479,7 @@
   <a href="#c014" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c014
+        c014 國文老師你讓我好感動
       
     </span>
   </a>
@@ -456,10 +487,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c015" class="md-nav__link">
+  <a href="#c015-stick-lengths" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c015
+        c015 Stick Lengths
       
     </span>
   </a>
@@ -467,10 +498,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c016" class="md-nav__link">
+  <a href="#c016-must-be-the-water" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c016
+        c016 Must be the water.
       
     </span>
   </a>
@@ -478,10 +509,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c017" class="md-nav__link">
+  <a href="#c017-ah-good-memories-good-memories" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c017
+        c017 Ah, good memories, good memories.
       
     </span>
   </a>
@@ -492,7 +523,7 @@
   <a href="#c019" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c019
+        c019 隨機播放
       
     </span>
   </a>
@@ -503,7 +534,7 @@
   <a href="#c020" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c020
+        c020 欸你耳朵摀著是在幹嘛！
       
     </span>
   </a>
@@ -511,10 +542,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c021" class="md-nav__link">
+  <a href="#c021-not-again" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c021
+        c021 Not again!
       
     </span>
   </a>
@@ -522,10 +553,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c022" class="md-nav__link">
+  <a href="#c022-to-coda" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c022
+        c022 To Coda!
       
     </span>
   </a>
@@ -533,10 +564,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c023" class="md-nav__link">
+  <a href="#c023-only-up" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c023
+        c023 Only Up
       
     </span>
   </a>
@@ -547,7 +578,7 @@
   <a href="#c024" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c024
+        c024 男廁公約
       
     </span>
   </a>
@@ -558,7 +589,7 @@
   <a href="#c026" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c026
+        c026 排球輪轉
       
     </span>
   </a>
@@ -566,10 +597,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c028" class="md-nav__link">
+  <a href="#c028-sogo100m" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c028
+        c028 SOGO大門前的100m衝刺
       
     </span>
   </a>
@@ -580,7 +611,7 @@
   <a href="#c031" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c031
+        c031 沒寫作業的站起來！
       
     </span>
   </a>
@@ -588,10 +619,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c032" class="md-nav__link">
+  <a href="#c032-repetitions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c032
+        c032 Repetitions
       
     </span>
   </a>
@@ -599,10 +630,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c033" class="md-nav__link">
+  <a href="#c033-palindrom-reorder" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c033
+        c033 Palindrom Reorder
       
     </span>
   </a>
@@ -613,7 +644,7 @@
   <a href="#c034" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c034
+        c034 復旦的全新排水系統
       
     </span>
   </a>
@@ -621,10 +652,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c035" class="md-nav__link">
+  <a href="#c035-veni-vidi-vici" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c035
+        c035 Veni, vidi, vici.
       
     </span>
   </a>
@@ -653,7 +684,61 @@
   <span class="md-ellipsis">
     
   
-    期中期末考題目
+    段考題
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    APCS 歷屆題目
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../misc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    其他題目
   
 
     
@@ -693,10 +778,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#c001" class="md-nav__link">
+  <a href="#c001-hello-world" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c001
+        c001 hello world!
       
     </span>
   </a>
@@ -704,10 +789,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c002" class="md-nav__link">
+  <a href="#c002-a-b-problem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c002
+        c002 A + B Problem
       
     </span>
   </a>
@@ -715,10 +800,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c004" class="md-nav__link">
+  <a href="#c004-basic-sgn" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c004
+        c004 BASIC 的 SGN 函數
       
     </span>
   </a>
@@ -729,7 +814,7 @@
   <a href="#c005" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c005
+        c005 妳那裡現在幾點了？
       
     </span>
   </a>
@@ -740,7 +825,7 @@
   <a href="#c006" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c006
+        c006 文文的求婚
       
     </span>
   </a>
@@ -748,10 +833,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c007" class="md-nav__link">
+  <a href="#c007-permutations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c007
+        c007 Permutations
       
     </span>
   </a>
@@ -759,10 +844,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c008" class="md-nav__link">
+  <a href="#c008-i-hate-doomscrolling" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c008
+        c008 I hate doomscrolling!
       
     </span>
   </a>
@@ -770,10 +855,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c009" class="md-nav__link">
+  <a href="#c009-trailing-zeros" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c009
+        c009 Trailing Zeros
       
     </span>
   </a>
@@ -781,10 +866,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c010" class="md-nav__link">
+  <a href="#c010-qq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c010
+        c010 為什麼我有蠶豆症啦QQ (上)
       
     </span>
   </a>
@@ -792,10 +877,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c011" class="md-nav__link">
+  <a href="#c011-qq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c011
+        c011 為什麼我有蠶豆症啦QQ (下)
       
     </span>
   </a>
@@ -806,7 +891,7 @@
   <a href="#c012" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c012
+        c012 我大括號絕不下放！
       
     </span>
   </a>
@@ -814,10 +899,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c013" class="md-nav__link">
+  <a href="#c013-i-despise-doomscrolling" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c013
+        c013 I despise doomscrolling!
       
     </span>
   </a>
@@ -828,7 +913,7 @@
   <a href="#c014" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c014
+        c014 國文老師你讓我好感動
       
     </span>
   </a>
@@ -836,10 +921,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c015" class="md-nav__link">
+  <a href="#c015-stick-lengths" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c015
+        c015 Stick Lengths
       
     </span>
   </a>
@@ -847,10 +932,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c016" class="md-nav__link">
+  <a href="#c016-must-be-the-water" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c016
+        c016 Must be the water.
       
     </span>
   </a>
@@ -858,10 +943,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c017" class="md-nav__link">
+  <a href="#c017-ah-good-memories-good-memories" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c017
+        c017 Ah, good memories, good memories.
       
     </span>
   </a>
@@ -872,7 +957,7 @@
   <a href="#c019" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c019
+        c019 隨機播放
       
     </span>
   </a>
@@ -883,7 +968,7 @@
   <a href="#c020" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c020
+        c020 欸你耳朵摀著是在幹嘛！
       
     </span>
   </a>
@@ -891,10 +976,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c021" class="md-nav__link">
+  <a href="#c021-not-again" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c021
+        c021 Not again!
       
     </span>
   </a>
@@ -902,10 +987,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c022" class="md-nav__link">
+  <a href="#c022-to-coda" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c022
+        c022 To Coda!
       
     </span>
   </a>
@@ -913,10 +998,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c023" class="md-nav__link">
+  <a href="#c023-only-up" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c023
+        c023 Only Up
       
     </span>
   </a>
@@ -927,7 +1012,7 @@
   <a href="#c024" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c024
+        c024 男廁公約
       
     </span>
   </a>
@@ -938,7 +1023,7 @@
   <a href="#c026" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c026
+        c026 排球輪轉
       
     </span>
   </a>
@@ -946,10 +1031,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c028" class="md-nav__link">
+  <a href="#c028-sogo100m" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c028
+        c028 SOGO大門前的100m衝刺
       
     </span>
   </a>
@@ -960,7 +1045,7 @@
   <a href="#c031" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c031
+        c031 沒寫作業的站起來！
       
     </span>
   </a>
@@ -968,10 +1053,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c032" class="md-nav__link">
+  <a href="#c032-repetitions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c032
+        c032 Repetitions
       
     </span>
   </a>
@@ -979,10 +1064,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c033" class="md-nav__link">
+  <a href="#c033-palindrom-reorder" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c033
+        c033 Palindrom Reorder
       
     </span>
   </a>
@@ -993,7 +1078,7 @@
   <a href="#c034" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c034
+        c034 復旦的全新排水系統
       
     </span>
   </a>
@@ -1001,10 +1086,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#c035" class="md-nav__link">
+  <a href="#c035-veni-vidi-vici" class="md-nav__link">
     <span class="md-ellipsis">
       
-        c035
+        c035 Veni, vidi, vici.
       
     </span>
   </a>
@@ -1031,10 +1116,10 @@
   
 
 
-<h1 id="15th-c001">15th 初階班 (c001~)</h1>
+<h1 id="15th-textttc001sim">15<sup>th</sup> 初階班 <span class="arithmatex">\((\texttt{c001}\sim)\)</span></h1>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c001">c001</h2>
+<h2 id="c001-hello-world">c001 hello world!</h2>
 <p>就輸出吧！</p>
 <p>記得 <code>#include &lt;iostream&gt;</code>, <code>using namespace std;</code> 要背好，然後 <code>cout</code> 的箭頭是向左的 <code>&lt;&lt;</code>。</p>
 </div>
@@ -1060,7 +1145,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c002">c002</h2>
+<h2 id="c002-a-b-problem">c002 A + B Problem</h2>
 <p>直接翻譯：</p>
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="n">宣告整數變數</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
@@ -1093,7 +1178,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c004">c004</h2>
+<h2 id="c004-basic-sgn">c004 BASIC 的 SGN 函數</h2>
 <p>如果用 if 就很直觀了，記得條件式的括號是小括號 <code>()</code>，後面的 code 是包在 <code>{}</code> 內的。</p>
 <p>至於第二個解法，其實就是把布林值當作整數來加減，<span class="arithmatex">\(\tiny{\text{真的超漂亮的}}\)</span>。</p>
 </div>
@@ -1139,7 +1224,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c005">c005</h2>
+<h2 id="c005">c005 妳那裡現在幾點了？</h2>
 <p>這題的 <code>if</code> 也蠻直觀的，如果減去 <span class="arithmatex">\(15\)</span> 會變負數，那就加 <span class="arithmatex">\(24\)</span> 再減 <span class="arithmatex">\(15\)</span>，也就是加 <span class="arithmatex">\(9\)</span> 吧。</p>
 <p>如果你不想用 if，也可以對 <span class="arithmatex">\(24\)</span> 取模，但是 C++ 的負數取模(其實是除法)規則和數學抑或是 python 的定義都不太相同，負數取模會是負的，所以保險的做法就是先加上 <span class="arithmatex">\(24\)</span>。</p>
 <p><code>((n - 15) % 24 + 24) % 24</code> <span class="arithmatex">\(\xrightarrow{其實負數不會超過 -24}\)</span> <code>(n - 15 + 24) % 24</code> <span class="arithmatex">\(\rightarrow\)</span> <code>(n + 9) % 24</code></p>
@@ -1184,7 +1269,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c006">c006</h2>
+<h2 id="c006">c006 文文的求婚</h2>
 <p>直接照著閏年的規則依樣畫葫蘆寫 if 就可以了，但是如果你想用 <code>!</code>, <code>&amp;&amp;</code> 和 <code>||</code> 來合併的話，記得 <code>||</code> 的優先順序是比較低的，再來是 <code>&amp;&amp;</code>。</p>
 </div>
 <div class="admonition col _2 clear">
@@ -1231,7 +1316,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c007">c007</h2>
+<h2 id="c007-permutations">c007 Permutations</h2>
 <p>這題有很多做法，其中一種是將數字分成奇偶數輸出，<span class="arithmatex">\(n\)</span> 比較小時數字會黏在一起留意一下就好。</p>
 <p>比較漂亮的做法是先輸出偶數再輸出奇數，這樣 <span class="arithmatex">\(n=4\)</span> 的部分就不需要額外判斷了。</p>
 </div>
@@ -1268,7 +1353,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c008">c008</h2>
+<h2 id="c008-i-hate-doomscrolling">c008 I hate doomscrolling!</h2>
 <p>你的目標是要組合出「可以往下(上)滑剛好一篇」的方法。</p>
 <p>於是你可以試著組出越來越小的篇數的方法，例如你可以往下 <span class="arithmatex">\(19\)</span> 和往上 <span class="arithmatex">\(8\)</span> 時，你可以先往下滑一次 <span class="arithmatex">\(19\)</span> 再往上滑兩次 <span class="arithmatex">\(8\)</span>，於是你就有往下滑 <span class="arithmatex">\(19-8\cdot2=3\)</span> 篇的能力了。往下滑兩次 <span class="arithmatex">\(3\)</span> 再往上滑 <span class="arithmatex">\(8\)</span> 次，你就有往上滑 <span class="arithmatex">\(2\)</span> 篇的能力了。往下滑一次 <span class="arithmatex">\(3\)</span> 再往上滑一次 <span class="arithmatex">\(2\)</span>，你就有往下滑 <span class="arithmatex">\(1\)</span> 篇的能力了。這是個比較不嚴謹的思考過程，當然你還要再組合出往上滑 <span class="arithmatex">\(1\)</span> 篇的能力，但是想法大致上就是如此。</p>
 <p>你會發現這個過程很像輾轉相除法，而要判斷的便是「最大公因數」是否為 <span class="arithmatex">\(1\)</span>。</p>
@@ -1321,7 +1406,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c009">c009</h2>
+<h2 id="c009-trailing-zeros">c009 Trailing Zeros</h2>
 <p>其實就是在問你 <span class="arithmatex">\(1\times2\times3\times\dots\times n\)</span> 的質因數分解有幾個 <span class="arithmatex">\(5\)</span> (不用判斷 <span class="arithmatex">\(2\)</span> 因為它一定會比 <span class="arithmatex">\(5\)</span> 多)。</p>
 <p>也就是說，你可以先判斷「至少有 <span class="arithmatex">\(5^1\)</span>」的數字有多少個(<span class="arithmatex">\(\left\lfloor\dfrac n5\right\rfloor\)</span>)，再判斷「至少有 <span class="arithmatex">\(5^2\)</span>」的數字有多少個(<span class="arithmatex">\(\left\lfloor\dfrac n{5^2}\right\rfloor\)</span>)...</p>
 <p>偷吃步，你可以每判斷完一次就把 <code>n /= 5</code>，這樣每次就除以 <span class="arithmatex">\(5\)</span> 的一次方就好。</p>
@@ -1356,7 +1441,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c010">c010</h2>
+<h2 id="c010-qq">c010 為什麼我有蠶豆症啦QQ (上)</h2>
 <p>這題的重點是要用迴圈外的變數來記錄一些重要的數值：目前連續吃幾個蠶豆酥了、目前總共吃了幾個蠶豆酥了、還有我總共有吃了幾個零食。</p>
 <p>剩下的，就靠你了，記得善用 <code>break</code> 和 <code>continue</code>。</p>
 </div>
@@ -1418,7 +1503,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c011">c011</h2>
+<h2 id="c011-qq">c011 為什麼我有蠶豆症啦QQ (下)</h2>
 <p>一樣，我們要用迴圈外的數字來記錄重要的東西，這次我們多加了：開心度、目前還需要暫停幾輪等等。</p>
 <p>各種判斷、操作的順序請小心安排。</p>
 </div>
@@ -1489,7 +1574,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c012">c012</h2>
+<h2 id="c012">c012 我大括號絕不下放！</h2>
 <p>主要的考點就是 <code>while (cin &gt;&gt; ...)</code>，剩下的其實就是寫完那個超醜的 if 判斷式來幫兩人加分還有判斷 deuce。</p>
 </div>
 <div class="admonition col _2 clear">
@@ -1549,7 +1634,7 @@
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c013">c013</h2>
+<h2 id="c013-i-despise-doomscrolling">c013 I despise doomscrolling!</h2>
 <p>我就直接補上推導過程吧。這次用的是迭代式的算法，遞迴的好寫很多但我們的重點是 while 迴圈。</p>
 <hr />
 <p>我們已經知道 <span class="arithmatex">\(n, m\)</span> 的值，而最終目的是找到 <span class="arithmatex">\(x, y\)</span> 使 <span class="arithmatex">\(nx - my = \gcd(n, m)\)</span>，這樣就可以對 <span class="arithmatex">\(x, y\)</span> 同乘上 <span class="arithmatex">\(\dfrac k{\gcd(n, m)}\)</span>，就找到答案了。</p>
@@ -1653,7 +1738,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c014">c014</h2>
+<h2 id="c014">c014 國文老師你讓我好感動</h2>
 <p>對於每週，你的任務就是比較「至今所有的功課量」還有「至今所有寫完的頁數」。由於寫的頁數可能會到 <span class="arithmatex">\(5\cdot 10^9\)</span>，所以請使用 <code>long long</code>。</p>
 <p>接下來，把這週的完成情況記錄在陣列上，最後看看前三週被感動幾次就好了。</p>
 <p>一個比較漂亮的做法是把前三週的完成情況紀錄在一個長度為三的陣列上，每次把目前的週次對 <span class="arithmatex">\(3\)</span> 取模。由於你會一直重複使用那個陣列，所以記得就算這週沒有被感動也要把那一格覆蓋上 <span class="arithmatex">\(0\)</span>。</p>
@@ -1748,7 +1833,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c015">c015</h2>
+<h2 id="c015-stick-lengths">c015 Stick Lengths</h2>
 <p>我們假設我們最後把所有的木棍的長度改為 <span class="arithmatex">\(l\)</span>，並且原先有 <span class="arithmatex">\(p\)</span> 個木棍長度 <span class="arithmatex">\(&gt;l\)</span>，<span class="arithmatex">\(q\)</span> 個木棍長度 <span class="arithmatex">\(&lt;l\)</span>。</p>
 <p>在這個情況下，我們如果把 <span class="arithmatex">\(l\)</span> 加上 <span class="arithmatex">\(1\)</span>，則我們的花費會多 <span class="arithmatex">\(p-q\)</span>，反之則會多 <span class="arithmatex">\(q-p\)</span>。</p>
 <p>因此，我們想要讓 <span class="arithmatex">\(p\)</span> 越接近 <span class="arithmatex">\(q\)</span>，也就是說剛好有一半的木棍長度 <span class="arithmatex">\(&gt;l\)</span>，一半木棍長度 <span class="arithmatex">\(&lt;l\)</span>。</p>
@@ -1806,7 +1891,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c016">c016</h2>
+<h2 id="c016-must-be-the-water">c016 Must be the water.</h2>
 <p>整個流程大抵如此(未完賽的部分我當實作細節)：</p>
 <ol>
 <li>找出完賽時間最少是誰</li>
@@ -1986,7 +2071,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c017">c017</h2>
+<h2 id="c017-ah-good-memories-good-memories">c017 Ah, good memories, good memories.</h2>
 <p>就寫個 bubble sort 吧！</p>
 <p>記得事件名稱要用 <code>getline()</code> 讀取。</p>
 <p>你可以選擇要在排序時就先把規則寫好或是照月份日期排序後再分兩段輸出。</p>
@@ -2068,7 +2153,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c019">c019</h2>
+<h2 id="c019">c019　隨機播放</h2>
 <p>題序讀好就可以了！</p>
 <p>如果真的讀不懂也沒關係，可以嘗試直接寫程式碼，你會發現題目的敘述幾乎可以直接翻譯成 code。</p>
 </div>
@@ -2183,7 +2268,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c020">c020</h2>
+<h2 id="c020">c020 欸你耳朵摀著是在幹嘛！</h2>
 <p>你有兩種選擇：</p>
 <ol>
 <li>讀到 <code>1</code> 時判斷下一個是不是 <code>0</code>，如果是的話那就代表指令在這個 <code>1</code> 結束。</li>
@@ -2288,7 +2373,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c021">c021</h2>
+<h2 id="c021-not-again">c021 Not again!</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -2340,7 +2425,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c022">c022</h2>
+<h2 id="c022-to-coda">c022 To Coda!</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -2423,7 +2508,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c023">c023</h2>
+<h2 id="c023-only-up">c023 Only Up</h2>
 <p>只要記錄兩個東西就好了：目前記錄到的最長坡的長度，以及目前的坡的長度。</p>
 <p>只要前一項比這一項還要大，就可以增加目前的坡的長度，不然就歸零。</p>
 <p>至於要怎麼紀錄，你可以額外開一個變數紀錄，初始值設無限大(<code>1e9+</code>)，或者是把索引值減 <span class="arithmatex">\(1\)</span>，記得留意負數取模。</p>
@@ -2466,7 +2551,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c024">c024</h2>
+<h2 id="c024">c024 男廁公約</h2>
 <p>首先，你需要把讀入的資料轉換為一塊一塊的，以連續幾個「有/沒有人」來記錄。</p>
 <p>第一個答案很簡單，就是把每一個有人的塊的大小<span class="arithmatex">\(\div2\)</span>加總。</p>
 <p>第二、三個答案，需要一些觀察，在廁所中間的塊都是 <span class="arithmatex">\(\left\lfloor\frac{n-1}2\right\rfloor\)</span> 和 <span class="arithmatex">\(\left\lfloor\frac n3\right\rfloor\)</span>，在最左/右邊的塊，公式需要稍作校正。</p>
@@ -2609,7 +2694,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c026">c026</h2>
+<h2 id="c026">c026 排球輪轉</h2>
 <p>這題最好做的方式其實是一維陣列而不是二維。如果你可以照著輪轉的順序(順時針)存下隊員，以「輸入資料時比較麻煩」換取「輪轉非常容易」。</p>
 <p>如果左隊用 <code>l[]</code> 紀錄，右隊用 <code>r[]</code> 來記錄，你可以依照這個順序來記錄：</p>
 <p><span class="arithmatex">\(\begin{array}{|c|c|c|c|}\hline
@@ -2776,7 +2861,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c028">c028</h2>
+<h2 id="c028-sogo100m">c028 SOGO大門前的100m衝刺</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -2829,7 +2914,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c031">c031</h2>
+<h2 id="c031">c031 沒寫作業的站起來！</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -2864,7 +2949,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c032">c032</h2>
+<h2 id="c032-repetitions">c032 Repetitions</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -2898,7 +2983,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c033">c033</h2>
+<h2 id="c033-palindrom-reorder">c033 Palindrom Reorder</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -2957,7 +3042,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c034">c034</h2>
+<h2 id="c034">c034 復旦的全新排水系統</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -3030,7 +3115,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 </div>
 <div class="admonition col _2">
 <p class="admonition-title">Col</p>
-<h2 id="c035">c035</h2>
+<h2 id="c035-veni-vidi-vici">c035 Veni, vidi, vici.</h2>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
@@ -3085,7 +3170,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 16, 2026 14:15:56 UTC">November 16, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 17, 2026 13:35:02 UTC">November 17, 2026</span>
   </span>
 
     
@@ -3096,11 +3181,12 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
       
     </span>
     <nav>
       
+        <a href="mailto:zhongweiliu927@gmail.com">median</a>
     </nav>
   </span>
 
@@ -3108,6 +3194,8 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
     
   </aside>
 
+
+  
 
 
 
@@ -3128,10 +3216,63 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 by <a href="https://github.com/ZhongWei927/">wei</a>
+    </div>
+  
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
       Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ZhongWei927/ddj-sol/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://zhongwei927.github.io/ddj-sol/" target="_blank" rel="noopener" title="zhongwei927.github.io" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/y49bnJxDMh/" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://dandanjudge-v2.fdhs.tyc.edu.tw/" target="_blank" rel="noopener" title="dandanjudge-v2.fdhs.tyc.edu.tw" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M118.2 62.4C101.5 56.8 92.4 38.6 98 21.9s23.7-25.8 40.5-20.3l113 37.7C265.4 15.8 291.1 0 320.4 0c44.2 0 80 35.8 80 80 0 3-.2 5.9-.5 8.8l122.6 40.9c16.8 5.6 25.8 23.7 20.2 40.5S519 196 502.2 190.4l-135.5-45.2c-4.5 3.2-9.3 5.9-14.4 8.2v326.7c0 17.7-14.3 32-32 32h-192c-17.7 0-32-14.3-32-32s14.3-32 32-32h160V153.4c-21-9.2-37.2-27-44.2-49zM200.8 288l-72.5-124.2L55.9 288zm-72.4 96c-62.9 0-115.2-34-126-78.9-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8L247.7 273c5.7 9.8 9.3 21.1 6.7 32.1-10.8 44.8-63.1 78.9-126 78.9m382.8-92.2L438.8 416h144.9l-72.4-124.2zm126 141.3c-10.8 44.9-63.1 78.9-126 78.9s-115.2-34-126-78.9c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8L630.5 401c5.7 9.8 9.3 21.1 6.7 32.1"/></svg>
     </a>
   
 </div>
@@ -3151,14 +3292,14 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "toc.follow", "navigation.tracking", "navigation.sections"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "toc.follow", "navigation.tracking", "navigation.sections", "search.highlight"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../javascripts/mathjax.js"></script>
       
-        <script src="../javascripts/tex-mml-chtml.js"></script>
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

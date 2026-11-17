@@ -1,11 +1,15 @@
 @media screen and (min-width: 76.25em) {
   .md-nav--primary .md-nav__list {
-      width: 14rem;
-    }
+    width: 14rem;
+  }
 
   .md-sidebar--primary {
-      width: 17rem;
-      left: 3.5rem;
+    width: 17rem;
+    left: 3.5rem;
+  }
+  .md-logo, .md-header__topic {
+    left: 3.5rem;
+    margin-right: -3.5rem;
   }
 }
 .md-grid {
@@ -17,7 +21,7 @@
 }
 
 .md-typeset h1 {
-  font-family: Noto Serif TC;
+  /* font-family: Noto Serif TC; */
   font-weight: 900;
   font-size: 2.4em;
 }
@@ -25,4 +29,5 @@
 .md-typeset h2 {
   font-weight: 700;
   font-size: 2em;
+  margin-top: 0.9rem;
 }
