@@ -6,7 +6,7 @@
     ??? note "C++ 程式碼"
         === "if 判斷式 + 運算子"
             ```cpp
-            --8<-- "code\\apcs001.cpp"
+            --8<-- "code/apcs001.cpp"
             ```
 
 !!! col _2
@@ -15,5 +15,5 @@
     ??? note "C++ 程式碼"
         === "if, max, min"
             ```cpp
-            --8<-- "code\\apcs002.cpp"
+            --8<-- "code/apcs002.cpp"
             ```

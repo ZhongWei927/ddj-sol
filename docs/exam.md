@@ -6,7 +6,7 @@
     ??? note "C++ 程式碼"
         === "cout"
             ```cpp
-            --8<-- "code\\bsc1501.cpp"
+            --8<-- "code/bsc1501.cpp"
             ```
 
 !!! col _2
@@ -15,7 +15,7 @@
     ??? note "C++ 程式碼"
         === "運算子 + if 判斷式"
             ```cpp
-            --8<-- "code\\bsc1502.cpp"
+            --8<-- "code/bsc1502.cpp"
             ```
 
 !!! col _2
@@ -24,15 +24,15 @@
     ??? note "C++ 程式碼"
         === "75%"
             ```cpp
-            --8<-- "code\\bsc1503.cpp"
+            --8<-- "code/bsc1503.cpp"
             ```
         === "95%"
             ```cpp
-            --8<-- "code\\bsc1503_A.cpp"
+            --8<-- "code/bsc1503_A.cpp"
             ```
         === "100%"
             ```cpp
-            --8<-- "code\\bsc1503_B.cpp"
+            --8<-- "code/bsc1503_B.cpp"
             ```
 
 !!! col _2
@@ -41,7 +41,7 @@
     ??? note "C++ 程式碼"
         === "while 迴圈"
             ```cpp
-            --8<-- "code\\bsc1504.cpp"
+            --8<-- "code/bsc1504.cpp"
             ```
 
 !!! col _2
@@ -50,9 +50,9 @@
     ??? note "C++ 程式碼"
         === "計算字母出現頻率"
             ```cpp
-            --8<-- "code\\bsc1505.cpp"
+            --8<-- "code/bsc1505.cpp"
             ```
         === "string + sort"
             ```cpp
-            --8<-- "code\\bsc1505_A.cpp"
+            --8<-- "code/bsc1505_A.cpp"
             ```

@@ -6,7 +6,7 @@
     ??? note "C++ 程式碼"
         === "code"
             ```cpp
-            --8<-- "code\\a014.cpp"
+            --8<-- "code/a014.cpp"
             ```
 
 !!! col _2
@@ -15,7 +15,7 @@
     ??? note "C++ 程式碼"
         === "code"
             ```cpp
-            --8<-- "code\\a019.cpp"
+            --8<-- "code/a019.cpp"
             ```
 
 !!! col _2
@@ -24,7 +24,7 @@
     ??? note "C++ 程式碼"
         === "code"
             ```cpp
-            --8<-- "code\\a160.cpp"
+            --8<-- "code/a160.cpp"
             ```
 
 !!! col _2
@@ -33,11 +33,11 @@
     ??? note "C++ 程式碼"
         === "雙層迴圈"
             ```cpp
-            --8<-- "code\\a191.cpp"
+            --8<-- "code/a191.cpp"
             ```
         === "[小技巧] string 函式"
             ```cpp
-            --8<-- "code\\a191_A.cpp"
+            --8<-- "code/a191_A.cpp"
             ```
 
 !!! col _2
@@ -46,11 +46,11 @@
     ??? note "C++ 程式碼"
         === "雙層迴圈"
             ```cpp
-            --8<-- "code\\a192.cpp"
+            --8<-- "code/a192.cpp"
             ```
         === "[小技巧] string 函式"
             ```cpp
-            --8<-- "code\\a192_A.cpp"
+            --8<-- "code/a192_A.cpp"
             ```
 
 !!! col _2
@@ -59,11 +59,11 @@
     ??? note "C++ 程式碼"
         === "雙層迴圈"
             ```cpp
-            --8<-- "code\\a193.cpp"
+            --8<-- "code/a193.cpp"
             ```
         === "[小技巧] string 函式"
             ```cpp
-            --8<-- "code\\a193_A.cpp"
+            --8<-- "code/a193_A.cpp"
             ```
 
 !!! col _2
@@ -72,5 +72,5 @@
     ??? note "C++ 程式碼"
         === "code"
             ```cpp
-            --8<-- "code\\a987.cpp"
+            --8<-- "code/a987.cpp"
             ```
