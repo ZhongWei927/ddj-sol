@@ -1,5 +1,7 @@
-site_name: Dandanjudge-v2 Solutions
+site_name: Dandanjudge-v2 題解
 site_url: https://zhongwei927.github.io/ddj-sol/
+site_description: solutions to problems in dandanjudge-v2.
+site_author: wei
 theme:
   name: material
   custom_dir: docs/overrides
@@ -69,8 +71,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      
-
 
 plugins:
   # https://github.com/mondeja/mkdocs-include-markdown-plugin
@@ -87,6 +87,7 @@ plugins:
       - zh
   - toggle-sidebar:
       toggle_button: navigation
+  - social
 
 extra_css:
    - css/massilia-columns.css
