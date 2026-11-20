@@ -32,5 +32,5 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-include-markdown-plugin
           pip install mkdocs-toggle-sidebar-plugin
-          pip install pip install "mkdocs-material[imaging]"
+          pip install "mkdocs-material[imaging]"
       - run: mkdocs gh-deploy --force
