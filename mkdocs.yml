@@ -87,7 +87,15 @@ plugins:
       - zh
   - toggle-sidebar:
       toggle_button: navigation
-  - social
+  - social:
+      # debug: true
+      debug_color: yellow
+      cards_layout: custom
+      cards_layout_options:
+        # background_color: 
+        # background_image: layouts/demo.png
+        # color: "#96ebdd"
+        font_family: LXGW WenKai Mono TC Regular
 
 extra_css:
    - css/massilia-columns.css
