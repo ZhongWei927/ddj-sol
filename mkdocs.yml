@@ -32,7 +32,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: material/xml
-  favicon: assets/images/FDCS.png
+  favicon: assets/images/ddj-sol.png
 
 nav:
   - 首頁: index.md
