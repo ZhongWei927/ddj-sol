@@ -1,0 +1,67 @@
+definitions:
+  - &page_description >-
+    {%- if layout.description -%}
+      {{ layout.description }}
+    {%- else -%}
+      {{ page.meta.get("description", config.site_description) | x }}
+    {%- endif -%}
+  - &page_title_with_site_name >-
+    {%- if not page.is_homepage -%}
+      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
+    {%- else -%}
+      {{ config.site_name }}
+    {%- endif -%}
+
+size: { width: 1200, height: 630 }
+layers:
+  - background:
+      image: docs/assets/images/demo.png
+      color: "#0007"
+  
+  - size: { width: 600, height: 300 }
+    offset: { x: 100, y: -20 }
+    typography:
+      content: "ddj-sol" 
+      align: start
+      color: white
+      font:
+        # family: Lavishly Yours
+        # family: Birthstone
+        family: Hurricane
+        # # family: Arizonia
+        # family: Italianno
+        # # family: Fleur De Leah
+        # family: Yesteryear
+        # family: Great Vibes
+        style: Bold
+  
+  - size: { width: 400, height: 6 }
+    offset: { x: 100, y: 245 }
+    background:
+      color: "#fff"
+
+  - size: { width: 900, height: 200 }
+    offset: { x: 100, y: 260 }
+    typography:
+      content: "{{ page.title }}" 
+      align: start
+      color: white
+      overflow: shrink
+      font:
+        family: Cactus Classical Serif
+        style: Bold
+
+tags:
+  og:type: website
+  og:title: "ddj-solutions / {{ page.title }}"
+  og:description: *page_description
+  og:image: "{{ image.url }}"
+  og:image:type: "{{ image.type }}"
+  og:image:width: "{{ image.width }}"
+  og:image:height: "{{ image.height }}"
+  og:url: "{{ page.canonical_url }}"
+
+  twitter:card: summary_large_image
+  twitter:title: *page_title_with_site_name
+  twitter:description: *page_description
+  twitter:image: "{{ image.url }}"

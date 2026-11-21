@@ -1,6 +1,6 @@
 site_name: Dandanjudge-v2 題解
 site_url: https://zhongwei927.github.io/ddj-sol/
-site_description: solutions to problems in dandanjudge-v2.
+site_description: solutions to problems in ddj-v2 (aka dandanjudge-v2). 旦旦解題農場v2 的題目之題解。
 site_author: wei
 theme:
   name: material
@@ -32,7 +32,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: material/xml
-  favicon: assets/images/ddj-sol.png
+  favicon: assets/images/DS.png
 
 nav:
   - 首頁: index.md
@@ -91,6 +91,7 @@ plugins:
       # debug: true
       debug_color: yellow
       cards_layout: custom
+      cards_layout_dir: docs/layouts
 
 extra_css:
    - css/massilia-columns.css
