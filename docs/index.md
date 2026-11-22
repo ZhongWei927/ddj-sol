@@ -1,3 +1,17 @@
 # 哈囉！
 
-這個網站包含了 15 屆程設班所有題目的解答和程式碼，希望大家可以多加利用！
+<p align="center">
+  <a href="https://zhongwei927.github.io/ddj-sol/">
+    <img src="assets/images/homepage-light.svg#only-light" width="600" alt="DS / ddj-sol">
+    <img src="assets/images/homepage-dark.svg#only-dark" width="600" alt="DS / ddj-sol">
+  </a>
+</p>
+
+<p align="center">
+  <strong>
+    Built on top of
+    <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a>
+    , hosted with 
+    <a href="https://pages.github.com/">GitHub Pages</a>
+  </strong>
+</p>

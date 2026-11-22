@@ -18,6 +18,12 @@ layers:
       image: docs/assets/images/demo.png
       color: "#0007"
   
+  - size: { width: 200, height: 200 }
+    offset: { x: 960, y: 50 }
+    icon:
+      value: simple/cplusplus
+      color: "#fff5"
+
   - size: { width: 600, height: 300 }
     offset: { x: 100, y: -20 }
     typography:
@@ -40,7 +46,7 @@ layers:
     background:
       color: "#fff"
 
-  - size: { width: 900, height: 200 }
+  - size: { width: 1100, height: 200 }
     offset: { x: 100, y: 260 }
     typography:
       content: "{{ page.title }}" 

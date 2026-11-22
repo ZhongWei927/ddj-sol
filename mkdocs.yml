@@ -6,16 +6,21 @@ theme:
   name: material
   custom_dir: docs/overrides
   palette: 
-    - scheme: default
-      primary: teal
+    - media: "(prefers-color-scheme)"
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/creation
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Switch to system preference
+
   features:
     - content.code.copy
     - navigation.instant
@@ -79,8 +84,9 @@ plugins:
       enable_creation_date: false
       enabled: true
       type: date
-  - git-authors:
-      enabled: true
+  - git-committers:
+      repository: zhongwei927/ddj-sol
+      branch: main
   - search:
       lang:
       - en
@@ -102,9 +108,6 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ZhongWei927/ddj-sol/

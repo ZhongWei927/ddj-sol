@@ -28,9 +28,10 @@ jobs:
       - run: pip install mkdocs-material
       - name: Installing Dependecies
         run: |
-          pip install mkdocs-git-authors-plugin
+          pip install mkdocs-git-committers-plugin-2
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-include-markdown-plugin
           pip install mkdocs-toggle-sidebar-plugin
           pip install "mkdocs-material[imaging]"
+          pip install mkdocs-glightbox
       - run: mkdocs gh-deploy --force
