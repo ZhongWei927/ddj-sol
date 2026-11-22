@@ -1,3 +1,16 @@
 # ddj-sol
 
-the solutions and codes for problems in dandanjudge-v2.
+<p align="center">
+  <a href="https://zhongwei927.github.io/ddj-sol/">
+    <img src="docs/assets/images/homepage-light.svg" width="320" alt="DS / ddj-sol">
+  </a>
+</p>
+
+<p align="center">
+  <strong>
+    Built on top of
+    <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a>
+    , hosted with 
+    <a href="https://pages.github.com/">GitHub Pages</a>
+  </strong>
+</p>
