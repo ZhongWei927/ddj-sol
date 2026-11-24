@@ -1,4 +1,4 @@
-# DDJ-v1 題目 $(\text{aXXX}, \text{bXXX})$
+# DDJ-v1 題目 (aXXX, bXXX)
 
 !!! col _2
     {% include-markdown '../src/sol/a014.md' %}

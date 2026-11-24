@@ -10,7 +10,7 @@
 <p align="center">
   <strong>
     Built on top of
-    <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a>
+    <a href="https://zensical.org/">Zensical</a>
     , hosted with 
     <a href="https://pages.github.com/">GitHub Pages</a>
   </strong>

@@ -36,7 +36,7 @@ theme:
     code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github
-    logo: material/xml
+    logo: DS-light
   favicon: assets/images/DS.png
 
 nav:
@@ -67,6 +67,7 @@ markdown_extensions:
       url_download: false
       url_max_size: 33554432
       url_timeout: 10
+      base_path: "."
   - pymdownx.details
   - pymdownx.critic
   - pymdownx.caret
@@ -91,8 +92,6 @@ plugins:
       lang:
       - en
       - zh
-  - toggle-sidebar:
-      toggle_button: navigation
   - social:
       # debug: true
       debug_color: yellow
@@ -106,6 +105,7 @@ extra_css:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/toggle-sidebar.js
 
 extra:
   social:

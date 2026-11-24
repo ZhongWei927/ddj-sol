@@ -1,4 +1,4 @@
-# 15^th^ 初階班 $(\texttt{c001}\sim)$
+# 15^th^ 初階班 (c001~)
 
 !!! col _2
     {% include-markdown '../src/sol/c001.md' %}

@@ -1,4 +1,4 @@
-# 15^th^ 初階班 $(\texttt{bsc1501}\sim)$
+# 15^th^ 初階班 (bsc1501~)
 
 !!! col _2
     {% include-markdown '../src/sol/bsc1501.md' %}

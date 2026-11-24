@@ -1,4 +1,4 @@
-# APCS 歷屆 ($(\texttt{apcs001}\sim)$)
+# APCS 歷屆 (apcs001~)
 
 !!! col _2
     {% include-markdown '../src/sol/apcs001.md' %}
