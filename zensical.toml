@@ -121,7 +121,7 @@ repository = "zhongwei927/ddj-sol"
 branch = "main"
 
 [project.plugins.social]
-debug = true
+# debug = true
 debug_color = "yellow"
 cards_layout = "custom"
 cards_layout_dir = "docs/layouts"
