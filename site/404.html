@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="zh-TW" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -55,9 +55,11 @@
       
     
     
-      <link rel="stylesheet" href="/ddj-sol/css/massilia-columns.css">
+      <link rel="stylesheet" href="/ddj-sol/stylesheets/massilia-columns.css">
     
-      <link rel="stylesheet" href="/ddj-sol/css/style.css">
+      <link rel="stylesheet" href="/ddj-sol/stylesheets/style.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("/ddj-sol",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
@@ -83,7 +85,7 @@
     <label class="md-overlay" for="__drawer" aria-hidden="true"></label>
     <div data-md-component="skip">
       <a href="#__skip" class="md-skip">
-        Skip to content
+        跳轉到
       </a>
     </div>
     <div data-md-component="announce">
@@ -104,7 +106,7 @@
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
   </script>
-  <nav class="md-header__inner md-grid" aria-label="Header">
+  <nav class="md-header__inner md-grid" aria-label="頁首">
     <a href="/ddj-sol/" title="Dandanjudge-v2 題解" class="md-header__button md-logo" aria-label="Dandanjudge-v2 題解" data-md-component="logo">
       
   
@@ -116,7 +118,7 @@
     <label class="md-header__button md-icon" for="__drawer">
       
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
-      <span class="md-visually-hidden">Navigation</span>
+      <span class="md-visually-hidden">導覽列</span>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -185,18 +187,18 @@
         <label class="md-header__button md-icon" for="__search">
           
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
-          <span class="md-visually-hidden">Search</span>
+          <span class="md-visually-hidden">搜尋</span>
         </label>
-        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="搜尋">
   <button type="button" class="md-search__button">
-    Search
+    搜尋
   </button>
 </div>
       
     
     <div class="md-header__source">
       
-        <a href="https://github.com/ZhongWei927/ddj-sol/" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/ZhongWei927/ddj-sol/" title="前往倉庫" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M216.5 362.5c-66-8-112.5-55.5-112.5-117 0-25 9-52 24-70-6.5-16.5-5.5-51.5 2-66 20-2.5 47 8 63 22.5 19-6 39-9 63.5-9s44.5 3 62.5 8.5c15.5-14 43-24.5 63-22 7 13.5 8 48.5 1.5 65.5 16 19 24.5 44.5 24.5 70.5 0 61.5-46.5 108-113.5 116.5 17 11 28.5 35 28.5 62.5v52c0 15 12.5 23.5 27.5 17.5C441 459.5 512 369 512 257 512 115.5 397 0 255.5 0S0 115.5 0 257c0 111 70.5 203 165.5 237.5 13.5 5 26.5-4 26.5-17.5v-40c-7 3-16 5-24 5-33 0-52.5-18-66.5-51.5-5.5-13.5-11.5-21.5-23-23-6-.5-8-3-8-6 0-6 10-10.5 20-10.5 14.5 0 27 9 40 27.5 10 14.5 20.5 21 33 21s20.5-4.5 32-16c8.5-8.5 15-16 21-21"/></svg>
@@ -242,7 +244,7 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="導覽列" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="/ddj-sol/" title="Dandanjudge-v2 題解" class="md-nav__button md-logo" aria-label="Dandanjudge-v2 題解" data-md-component="logo">
       
@@ -256,7 +258,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/ZhongWei927/ddj-sol/" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/ZhongWei927/ddj-sol/" title="前往倉庫" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M216.5 362.5c-66-8-112.5-55.5-112.5-117 0-25 9-52 24-70-6.5-16.5-5.5-51.5 2-66 20-2.5 47 8 63 22.5 19-6 39-9 63.5-9s44.5 3 62.5 8.5c15.5-14 43-24.5 63-22 7 13.5 8 48.5 1.5 65.5 16 19 24.5 44.5 24.5 70.5 0 61.5-46.5 108-113.5 116.5 17 11 28.5 35 28.5 62.5v52c0 15 12.5 23.5 27.5 17.5C441 459.5 512 369 512 257 512 115.5 397 0 255.5 0S0 115.5 0 257c0 111 70.5 203 165.5 237.5 13.5 5 26.5-4 26.5-17.5v-40c-7 3-16 5-24 5-33 0-52.5-18-66.5-51.5-5.5-13.5-11.5-21.5-23-23-6-.5-8-3-8-6 0-6 10-10.5 20-10.5 14.5 0 27 9 40 27.5 10 14.5 20.5 21 33 21s20.5-4.5 32-16c8.5-8.5 15-16 21-21"/></svg>
@@ -419,7 +421,7 @@
                     
 
 
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
   
   
   
@@ -447,6 +449,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  回到頂端
+</button>
         
       </main>
       
@@ -530,6 +538,70 @@
 <div class="md-progress" data-md-component="progress" role="progressbar" aria-label="Loading"></div>
     
     
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>  We use cookies to recognize your repeated visits and preferences, as well
+  as to measure the effectiveness of our documentation and whether users
+  find what they're searching for. With your consent, you're helping us to
+  make our documentation better.
+</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">同意</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">管理設定</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
     
       
       
@@ -537,16 +609,18 @@
       
         
         
-      <script id="__config" type="application/json">{"annotate":null,"base":"/ddj-sol","features":["content.code.copy","navigation.instant","navigation.instant.prefetch","navigation.instant.progress","toc.follow","navigation.tracking","navigation.sections","search.highlight"],"redirect":null,"search":"/ddj-sol/assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","clipboard.error":"Could not copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+      <script id="__config" type="application/json">{"annotate":null,"base":"/ddj-sol","features":["content.code.copy","navigation.instant","navigation.instant.prefetch","navigation.instant.progress","toc.follow","navigation.tracking","navigation.sections","search.highlight","navigation.top","content.action.view","content.action.edit","content.code.select"],"redirect":null,"search":"/ddj-sol/assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"已複製","clipboard.copy":"複製","clipboard.error":"Could not copy to clipboard","search.result.more.one":"此頁尚有 1 個符合的項目","search.result.more.other":"此頁尚有 # 個符合的項目","search.result.none":"沒有符合的項目","search.result.one":"找到 1 個符合的項目","search.result.other":"找到 # 個符合的項目","search.result.placeholder":"打字進行搜尋","search.result.term.missing":"缺少字詞","select.version":"選擇版本"},"version":null}</script>
     
     
       <script src="/ddj-sol/assets/javascripts/bundle.3cb411a8.min.js"></script>
       
-        <script src="/ddj-sol/javascripts/mathjax.js"></script>
-      
-        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-      
         <script src="/ddj-sol/javascripts/toggle-sidebar.js"></script>
+      
+        <script src="/ddj-sol/javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
     
   </body>

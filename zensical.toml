@@ -1,0 +1,152 @@
+[project]
+site_name = "Dandanjudge-v2 題解"
+site_url =  "https://zhongwei927.github.io/ddj-sol/"
+site_description = "solutions to problems in ddj-v2 (aka dandanjudge-v2). 旦旦解題農場v2 的題目之題解。"
+site_author = "wei"
+copyright = 'Copyright &copy; 2026 by <a href="https://github.com/ZhongWei927/">wei</a>'
+repo_url = "https://github.com/ZhongWei927/ddj-sol/"
+repo_name = "zhongwei927/ddj-sol"
+nav = [
+  {"首頁" = "index.md"},
+  {"一般題目" = "general.md"},
+  {"段考題" = "exam.md"},
+  {"APCS 歷屆題目" = "apcs.md"},
+  {"其他題目" = "misc.md"},
+]
+extra_css = [
+  "stylesheets/massilia-columns.css",
+  "stylesheets/style.css",
+  "https://unpkg.com/katex@0/dist/katex.min.css",
+]
+extra_javascript = [
+  # "javascripts/mathjax.js",
+  # "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+  "javascripts/toggle-sidebar.js",
+  "javascripts/katex.js",
+  "https://unpkg.com/katex@0/dist/katex.min.js",
+  "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
+]
+
+########################################
+
+# auto -> dark
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/weather-night"
+toggle.name = "Switch to dark mode"
+
+# dark -> light
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "material/creation"
+toggle.name = "Switch to light mode"
+
+# light -> auto
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "material/weather-sunny"
+toggle.name = "Switch to system preference"
+
+[project.theme]
+features = [
+  "content.code.copy",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.instant.progress",
+  "toc.follow",
+  # "toc.integrate",
+  "navigation.tracking",
+  "navigation.sections",
+  "search.highlight",
+  "navigation.top",
+  "content.action.view",
+  "content.action.edit",
+  "content.code.select"
+]
+font.text = "Chiron GoRound TC"
+font.code = "JetBrains Mono"
+custom_dir = "overrides"
+favicon = "assets/images/DS.png"
+language = "zh-TW"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+logo = "DS-light"
+
+########################################
+
+[project.markdown_extensions]
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.emoji.options.custom_icons = [
+  "overrides/.icons",
+]
+admonition = {}
+pymdownx.details = {}
+pymdownx.superfences = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.snippets.base_path = "."
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.slugify.object = "pymdownx.slugs.slugify"
+pymdownx.tabbed.slugify.kwds.case = "lower"
+pymdownx.caret = {}
+pymdownx.keys = {}
+pymdownx.mark = {}
+pymdownx.tilde = {}
+def_list = {}
+pymdownx.tasklist.custom_checkbox = true
+attr_list = {}
+md_in_html = {}
+pymdownx.blocks.caption = {}
+pymdownx.arithmatex.generic = true
+
+########################################
+
+[project.plugins.include-markdown]
+
+[project.plugins.git-revision-date-localized]
+enable_creation_date = false
+enabled = true
+type = "date"
+
+[project.plugins.git-committers]
+repository = "zhongwei927/ddj-sol"
+branch = "main"
+
+[project.plugins.social]
+debug = true
+debug_color = "yellow"
+cards_layout = "custom"
+cards_layout_dir = "docs/layouts"
+
+########################################
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/ZhongWei927/ddj-sol/"
+
+[[project.extra.social]]
+icon = "material/book-open-variant"
+link = "https://zhongwei927.github.io/ddj-sol/"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/discord"
+link = "https://discord.gg/y49bnJxDMh/"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/scale-unbalanced-flip"
+link = "https://dandanjudge-v2.fdhs.tyc.edu.tw/"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+  We use cookies to recognize your repeated visits and preferences, as well
+  as to measure the effectiveness of our documentation and whether users
+  find what they're searching for. With your consent, you're helping us to
+  make our documentation better.
+"""

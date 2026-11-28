@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="zh-TW" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -61,9 +61,11 @@
       
     
     
-      <link rel="stylesheet" href="../css/massilia-columns.css">
+      <link rel="stylesheet" href="../stylesheets/massilia-columns.css">
     
-      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../stylesheets/style.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
@@ -101,7 +103,7 @@
     <label class="md-overlay" for="__drawer" aria-hidden="true"></label>
     <div data-md-component="skip">
       <a href="#__skip" class="md-skip">
-        Skip to content
+        跳轉到
       </a>
     </div>
     <div data-md-component="announce">
@@ -122,7 +124,7 @@
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
   </script>
-  <nav class="md-header__inner md-grid" aria-label="Header">
+  <nav class="md-header__inner md-grid" aria-label="頁首">
     <a href="./.." title="Dandanjudge-v2 題解" class="md-header__button md-logo" aria-label="Dandanjudge-v2 題解" data-md-component="logo">
       
   
@@ -134,7 +136,7 @@
     <label class="md-header__button md-icon" for="__drawer">
       
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
-      <span class="md-visually-hidden">Navigation</span>
+      <span class="md-visually-hidden">導覽列</span>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -203,18 +205,18 @@
         <label class="md-header__button md-icon" for="__search">
           
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
-          <span class="md-visually-hidden">Search</span>
+          <span class="md-visually-hidden">搜尋</span>
         </label>
-        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="搜尋">
   <button type="button" class="md-search__button">
-    Search
+    搜尋
   </button>
 </div>
       
     
     <div class="md-header__source">
       
-        <a href="https://github.com/ZhongWei927/ddj-sol/" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/ZhongWei927/ddj-sol/" title="前往倉庫" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M216.5 362.5c-66-8-112.5-55.5-112.5-117 0-25 9-52 24-70-6.5-16.5-5.5-51.5 2-66 20-2.5 47 8 63 22.5 19-6 39-9 63.5-9s44.5 3 62.5 8.5c15.5-14 43-24.5 63-22 7 13.5 8 48.5 1.5 65.5 16 19 24.5 44.5 24.5 70.5 0 61.5-46.5 108-113.5 116.5 17 11 28.5 35 28.5 62.5v52c0 15 12.5 23.5 27.5 17.5C441 459.5 512 369 512 257 512 115.5 397 0 255.5 0S0 115.5 0 257c0 111 70.5 203 165.5 237.5 13.5 5 26.5-4 26.5-17.5v-40c-7 3-16 5-24 5-33 0-52.5-18-66.5-51.5-5.5-13.5-11.5-21.5-23-23-6-.5-8-3-8-6 0-6 10-10.5 20-10.5 14.5 0 27 9 40 27.5 10 14.5 20.5 21 33 21s20.5-4.5 32-16c8.5-8.5 15-16 21-21"/></svg>
@@ -260,7 +262,7 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="導覽列" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="./.." title="Dandanjudge-v2 題解" class="md-nav__button md-logo" aria-label="Dandanjudge-v2 題解" data-md-component="logo">
       
@@ -274,7 +276,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/ZhongWei927/ddj-sol/" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/ZhongWei927/ddj-sol/" title="前往倉庫" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M216.5 362.5c-66-8-112.5-55.5-112.5-117 0-25 9-52 24-70-6.5-16.5-5.5-51.5 2-66 20-2.5 47 8 63 22.5 19-6 39-9 63.5-9s44.5 3 62.5 8.5c15.5-14 43-24.5 63-22 7 13.5 8 48.5 1.5 65.5 16 19 24.5 44.5 24.5 70.5 0 61.5-46.5 108-113.5 116.5 17 11 28.5 35 28.5 62.5v52c0 15 12.5 23.5 27.5 17.5C441 459.5 512 369 512 257 512 115.5 397 0 255.5 0S0 115.5 0 257c0 111 70.5 203 165.5 237.5 13.5 5 26.5-4 26.5-17.5v-40c-7 3-16 5-24 5-33 0-52.5-18-66.5-51.5-5.5-13.5-11.5-21.5-23-23-6-.5-8-3-8-6 0-6 10-10.5 20-10.5 14.5 0 27 9 40 27.5 10 14.5 20.5 21 33 21s20.5-4.5 32-16c8.5-8.5 15-16 21-21"/></svg>
@@ -365,7 +367,7 @@
         
 
 
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
   
   
   
@@ -374,7 +376,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      On this page
+      目錄
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -810,7 +812,7 @@
                     
 
 
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
   
   
   
@@ -819,7 +821,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      On this page
+      目錄
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -1159,6 +1161,19 @@
                   
 
   
+    <a href="https://github.com/ZhongWei927/ddj-sol/edit/master/docs/general.md" title="編輯此頁" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-pen" viewBox="0 0 24 24"><path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34"/><path d="M14 2v5a1 1 0 0 0 1 1h5M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/ZhongWei927/ddj-sol/raw/master/docs/general.md" title="查看此頁原始碼" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-code-2" viewBox="0 0 24 24"><path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35"/><path d="M14 2v5a1 1 0 0 0 1 1h5M5 16l-3 3 3 3M9 22l3-3-3-3"/></svg>
+    </a>
   
 
 
@@ -1173,7 +1188,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">cout</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="cout" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="cout">cout</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1204,7 +1219,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">變數宣告+基本輸入輸出</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="變數宣告基本輸入輸出" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="變數宣告基本輸入輸出">變數宣告+基本輸入輸出</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1226,13 +1241,13 @@
 <p class="admonition-title">Col</p>
 <h2 id="c004-basic-sgn">c004 BASIC 的 SGN 函數</h2>
 <p>如果用 if 就很直觀了，記得條件式的括號是小括號 <code>()</code>，後面的 code 是包在 <code>{}</code> 內的。</p>
-<p>至於第二個解法，其實就是把布林值當作整數來加減，<span class="arithmatex">\(\tiny{\text{真的超漂亮的}}\)</span>。</p>
+<p>至於第二個解法，其實就是把布林值當作整數來加減，<span class="arithmatex">\(\tiny{\text{超漂亮的}}\)</span>。</p>
 </div>
 <div class="admonition col _2 clear">
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">if 判斷式</label><label for="__tabbed_3_2">運算子</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="if-判斷式" name="__tabbed_3" type="radio" /><input id="運算子" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="if-判斷式">if 判斷式</label><label for="運算子">運算子</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1279,7 +1294,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">if 判斷式</label><label for="__tabbed_4_2">取模運算</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="if-判斷式_1" name="__tabbed_4" type="radio" /><input id="取模運算" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="if-判斷式_1">if 判斷式</label><label for="取模運算">取模運算</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1322,7 +1337,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">if 判斷式</label><label for="__tabbed_5_2">&amp;&amp;, ||</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="if-判斷式_2" name="__tabbed_5" type="radio" /><input id="-" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="if-判斷式_2">if 判斷式</label><label for="-">&amp;&amp;, ||</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span>
@@ -1370,7 +1385,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">for 迴圈</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="for-迴圈" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="for-迴圈">for 迴圈</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1409,7 +1424,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">while 迴圈 + 輾轉相除法</label><label for="__tabbed_7_2">[小技巧] std::tie(), std::tuple</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="while-迴圈--輾轉相除法" name="__tabbed_7" type="radio" /><input id="小技巧-stdtie-stdtuple" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="while-迴圈--輾轉相除法">while 迴圈 + 輾轉相除法</label><label for="小技巧-stdtie-stdtuple">[小技巧] std::tie(), std::tuple</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -1461,7 +1476,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="8:1"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">while 迴圈</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:1"><input checked="checked" id="while-迴圈" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="while-迴圈">while 迴圈</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1495,7 +1510,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">while, break</label><label for="__tabbed_9_2">[小技巧] 前序運算子</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="while-break" name="__tabbed_9" type="radio" /><input id="小技巧-前序運算子" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="while-break">while, break</label><label for="小技巧-前序運算子">[小技巧] 前序運算子</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1557,7 +1572,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="10:1"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">while, break, continue</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:1"><input checked="checked" id="while-break-continue" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="while-break-continue">while, break, continue</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1627,7 +1642,7 @@
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">while 迴圈 + if 判斷式</label><label for="__tabbed_11_2">[小技巧] max / abs 函式</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="while-迴圈--if-判斷式" name="__tabbed_11" type="radio" /><input id="小技巧-max--abs-函式" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="while-迴圈--if-判斷式">while 迴圈 + if 判斷式</label><label for="小技巧-max--abs-函式">[小技巧] max / abs 函式</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1753,7 +1768,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="12:1"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">[數學] 迭代式擴充歐幾里得演算法</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:1"><input checked="checked" id="數學-迭代式擴充歐幾里得演算法" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="數學-迭代式擴充歐幾里得演算法">[數學] 迭代式擴充歐幾里得演算法</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -1793,7 +1808,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked="checked" id="__tabbed_13_1" name="__tabbed_13" type="radio" /><input id="__tabbed_13_2" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="__tabbed_13_1">for 迴圈 + 陣列</label><label for="__tabbed_13_2">[小技巧] 滾動陣列 + accumulate 函式</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked="checked" id="for-迴圈--陣列" name="__tabbed_13" type="radio" /><input id="小技巧-滾動陣列--accumulate-函式" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="for-迴圈--陣列">for 迴圈 + 陣列</label><label for="小技巧-滾動陣列--accumulate-函式">[小技巧] 滾動陣列 + accumulate 函式</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1889,7 +1904,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked="checked" id="__tabbed_14_1" name="__tabbed_14" type="radio" /><input id="__tabbed_14_2" name="__tabbed_14" type="radio" /><div class="tabbed-labels"><label for="__tabbed_14_1">sort 排序 + 陣列</label><label for="__tabbed_14_2">[下學期] vector + accumulate</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="14:2"><input checked="checked" id="sort-排序--陣列" name="__tabbed_14" type="radio" /><input id="下學期-vector--accumulate" name="__tabbed_14" type="radio" /><div class="tabbed-labels"><label for="sort-排序--陣列">sort 排序 + 陣列</label><label for="下學期-vector--accumulate">[下學期] vector + accumulate</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -1951,7 +1966,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="15:2"><input checked="checked" id="__tabbed_15_1" name="__tabbed_15" type="radio" /><input id="__tabbed_15_2" name="__tabbed_15" type="radio" /><div class="tabbed-labels"><label for="__tabbed_15_1">bubble sort</label><label for="__tabbed_15_2">[超綱] vector, struct, 運算子重載, 陣列上二分搜</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="15:2"><input checked="checked" id="bubble-sort" name="__tabbed_15" type="radio" /><input id="超綱-vector-struct-運算子重載-陣列上二分搜" name="__tabbed_15" type="radio" /><div class="tabbed-labels"><label for="bubble-sort">bubble sort</label><label for="超綱-vector-struct-運算子重載-陣列上二分搜">[超綱] vector, struct, 運算子重載, 陣列上二分搜</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -2126,7 +2141,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="16:2"><input checked="checked" id="__tabbed_16_1" name="__tabbed_16" type="radio" /><input id="__tabbed_16_2" name="__tabbed_16" type="radio" /><div class="tabbed-labels"><label for="__tabbed_16_1">bubble sort</label><label for="__tabbed_16_2">[超綱] sort 匿名函式自訂比較</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="16:2"><input checked="checked" id="bubble-sort_1" name="__tabbed_16" type="radio" /><input id="超綱-sort-匿名函式自訂比較" name="__tabbed_16" type="radio" /><div class="tabbed-labels"><label for="bubble-sort_1">bubble sort</label><label for="超綱-sort-匿名函式自訂比較">[超綱] sort 匿名函式自訂比較</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -2207,7 +2222,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="17:3"><input checked="checked" id="__tabbed_17_1" name="__tabbed_17" type="radio" /><input id="__tabbed_17_2" name="__tabbed_17" type="radio" /><input id="__tabbed_17_3" name="__tabbed_17" type="radio" /><div class="tabbed-labels"><label for="__tabbed_17_1">陣列複製</label><label for="__tabbed_17_2">[下學期] 指標交換</label><label for="__tabbed_17_3">[下學期] vector + swap</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="17:3"><input checked="checked" id="陣列複製" name="__tabbed_17" type="radio" /><input id="下學期-指標交換" name="__tabbed_17" type="radio" /><input id="下學期-vector--swap" name="__tabbed_17" type="radio" /><div class="tabbed-labels"><label for="陣列複製">陣列複製</label><label for="下學期-指標交換">[下學期] 指標交換</label><label for="下學期-vector--swap">[下學期] vector + swap</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -2326,7 +2341,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="18:2"><input checked="checked" id="__tabbed_18_1" name="__tabbed_18" type="radio" /><input id="__tabbed_18_2" name="__tabbed_18" type="radio" /><div class="tabbed-labels"><label for="__tabbed_18_1">陣列 + 運算子</label><label for="__tabbed_18_2">[下學期] vector</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="18:2"><input checked="checked" id="陣列--運算子" name="__tabbed_18" type="radio" /><input id="下學期-vector" name="__tabbed_18" type="radio" /><div class="tabbed-labels"><label for="陣列--運算子">陣列 + 運算子</label><label for="下學期-vector">[下學期] vector</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -2425,7 +2440,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="19:1"><input checked="checked" id="__tabbed_19_1" name="__tabbed_19" type="radio" /><div class="tabbed-labels"><label for="__tabbed_19_1">[下學期] 遞迴</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="19:1"><input checked="checked" id="下學期-遞迴" name="__tabbed_19" type="radio" /><div class="tabbed-labels"><label for="下學期-遞迴">[下學期] 遞迴</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -2477,7 +2492,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="20:1"><input checked="checked" id="__tabbed_20_1" name="__tabbed_20" type="radio" /><div class="tabbed-labels"><label for="__tabbed_20_1">[下學期] 遞迴</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="20:1"><input checked="checked" id="下學期-遞迴_1" name="__tabbed_20" type="radio" /><div class="tabbed-labels"><label for="下學期-遞迴_1">[下學期] 遞迴</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -2564,7 +2579,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="21:1"><input checked="checked" id="__tabbed_21_1" name="__tabbed_21" type="radio" /><div class="tabbed-labels"><label for="__tabbed_21_1">陣列 + 取模</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="21:1"><input checked="checked" id="陣列--取模" name="__tabbed_21" type="radio" /><div class="tabbed-labels"><label for="陣列--取模">陣列 + 取模</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -2614,7 +2629,7 @@ y + t \cdot \frac{A}{\gcd} \ge 0 \implies t \ge \frac{-y \cdot \gcd}{A}
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="22:2"><input checked="checked" id="__tabbed_22_1" name="__tabbed_22" type="radio" /><input id="__tabbed_22_2" name="__tabbed_22" type="radio" /><div class="tabbed-labels"><label for="__tabbed_22_1">陣列 + 小實作</label><label for="__tabbed_22_2">[下學期] vector, pair, 記憶體位置</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="22:2"><input checked="checked" id="陣列--小實作" name="__tabbed_22" type="radio" /><input id="下學期-vector-pair-記憶體位置" name="__tabbed_22" type="radio" /><div class="tabbed-labels"><label for="陣列--小實作">陣列 + 小實作</label><label for="下學期-vector-pair-記憶體位置">[下學期] vector, pair, 記憶體位置</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -2761,7 +2776,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="23:4"><input checked="checked" id="__tabbed_23_1" name="__tabbed_23" type="radio" /><input id="__tabbed_23_2" name="__tabbed_23" type="radio" /><input id="__tabbed_23_3" name="__tabbed_23" type="radio" /><input id="__tabbed_23_4" name="__tabbed_23" type="radio" /><div class="tabbed-labels"><label for="__tabbed_23_1">陣列 + 取模</label><label for="__tabbed_23_2">[下學期] vector</label><label for="__tabbed_23_3">二維陣列</label><label for="__tabbed_23_4">[超綱] deque</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="23:4"><input checked="checked" id="陣列--取模_1" name="__tabbed_23" type="radio" /><input id="下學期-vector_1" name="__tabbed_23" type="radio" /><input id="二維陣列" name="__tabbed_23" type="radio" /><input id="超綱-deque" name="__tabbed_23" type="radio" /><div class="tabbed-labels"><label for="陣列--取模_1">陣列 + 取模</label><label for="下學期-vector_1">[下學期] vector</label><label for="二維陣列">二維陣列</label><label for="超綱-deque">[超綱] deque</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-37-1"><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -2913,7 +2928,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="24:1"><input checked="checked" id="__tabbed_24_1" name="__tabbed_24" type="radio" /><div class="tabbed-labels"><label for="__tabbed_24_1">陣列, 無條件進位</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="24:1"><input checked="checked" id="陣列-無條件進位" name="__tabbed_24" type="radio" /><div class="tabbed-labels"><label for="陣列-無條件進位">陣列, 無條件進位</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-41-1"><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -2966,7 +2981,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="25:1"><input checked="checked" id="__tabbed_25_1" name="__tabbed_25" type="radio" /><div class="tabbed-labels"><label for="__tabbed_25_1">陣列</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="25:1"><input checked="checked" id="陣列" name="__tabbed_25" type="radio" /><div class="tabbed-labels"><label for="陣列">陣列</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-42-1"><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -3001,7 +3016,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="26:1"><input checked="checked" id="__tabbed_26_1" name="__tabbed_26" type="radio" /><div class="tabbed-labels"><label for="__tabbed_26_1">string 字串</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="26:1"><input checked="checked" id="string-字串" name="__tabbed_26" type="radio" /><div class="tabbed-labels"><label for="string-字串">string 字串</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-43-1"><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
@@ -3035,7 +3050,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="27:1"><input checked="checked" id="__tabbed_27_1" name="__tabbed_27" type="radio" /><div class="tabbed-labels"><label for="__tabbed_27_1">string + 陣列</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="27:1"><input checked="checked" id="string--陣列" name="__tabbed_27" type="radio" /><div class="tabbed-labels"><label for="string--陣列">string + 陣列</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-44-1"><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -3094,7 +3109,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="28:2"><input checked="checked" id="__tabbed_28_1" name="__tabbed_28" type="radio" /><input id="__tabbed_28_2" name="__tabbed_28" type="radio" /><div class="tabbed-labels"><label for="__tabbed_28_1">sort 排序</label><label for="__tabbed_28_2">[超綱] set</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="28:2"><input checked="checked" id="sort-排序" name="__tabbed_28" type="radio" /><input id="超綱-set" name="__tabbed_28" type="radio" /><div class="tabbed-labels"><label for="sort-排序">sort 排序</label><label for="超綱-set">[超綱] set</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-45-1"><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -3167,7 +3182,7 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <p class="admonition-title">Col</p>
 <details class="note">
 <summary>C++ 程式碼</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="29:1"><input checked="checked" id="__tabbed_29_1" name="__tabbed_29" type="radio" /><div class="tabbed-labels"><label for="__tabbed_29_1">string + 取模 + 型態轉換</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="29:1"><input checked="checked" id="string--取模--型態轉換" name="__tabbed_29" type="radio" /><div class="tabbed-labels"><label for="string--取模--型態轉換">string + 取模 + 型態轉換</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-47-1"><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
@@ -3217,6 +3232,12 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  回到頂端
+</button>
         
       </main>
       
@@ -3300,6 +3321,70 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
 <div class="md-progress" data-md-component="progress" role="progressbar" aria-label="Loading"></div>
     
     
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>  We use cookies to recognize your repeated visits and preferences, as well
+  as to measure the effectiveness of our documentation and whether users
+  find what they're searching for. With your consent, you're helping us to
+  make our documentation better.
+</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">同意</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">管理設定</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
     
       
       
@@ -3307,16 +3392,18 @@ r[5] &amp; r[4] &amp; r[3] \\\hline
       
         
         
-      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["content.code.copy","navigation.instant","navigation.instant.prefetch","navigation.instant.progress","toc.follow","navigation.tracking","navigation.sections","search.highlight"],"redirect":null,"search":"../assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","clipboard.error":"Could not copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["content.code.copy","navigation.instant","navigation.instant.prefetch","navigation.instant.progress","toc.follow","navigation.tracking","navigation.sections","search.highlight","navigation.top","content.action.view","content.action.edit","content.code.select"],"redirect":null,"search":"../assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"已複製","clipboard.copy":"複製","clipboard.error":"Could not copy to clipboard","search.result.more.one":"此頁尚有 1 個符合的項目","search.result.more.other":"此頁尚有 # 個符合的項目","search.result.none":"沒有符合的項目","search.result.one":"找到 1 個符合的項目","search.result.other":"找到 # 個符合的項目","search.result.placeholder":"打字進行搜尋","search.result.term.missing":"缺少字詞","select.version":"選擇版本"},"version":null}</script>
     
     
       <script src="../assets/javascripts/bundle.3cb411a8.min.js"></script>
       
-        <script src="../javascripts/mathjax.js"></script>
-      
-        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-      
         <script src="../javascripts/toggle-sidebar.js"></script>
+      
+        <script src="../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
     
   </body>

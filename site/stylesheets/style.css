@@ -108,11 +108,10 @@
 }
 
 .md-source__repository {
-  font-family: Yesteryear;
-  /* font-family: VeryBerry; */
+  font-family: VeryBerry;
   /* font-family: Birthstone; */
   font-size: 1rem;
-  width: 10em;
+  width: 11em;
 }
 
 .md-header__inner {
