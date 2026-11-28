@@ -6,6 +6,7 @@ site_author = "wei"
 copyright = 'Copyright &copy; 2026 by <a href="https://github.com/ZhongWei927/">wei</a>'
 repo_url = "https://github.com/ZhongWei927/ddj-sol/"
 repo_name = "zhongwei927/ddj-sol"
+edit_uri = "edit/main/docs/"
 nav = [
   {"首頁" = "index.md"},
   {"一般題目" = "general.md"},
@@ -27,7 +28,7 @@ extra_javascript = [
   "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
 ]
 
-########################################
+# ---------- theme ---------- #
 
 # auto -> dark
 [[project.theme.palette]]
@@ -75,7 +76,7 @@ language = "zh-TW"
 repo = "fontawesome/brands/github"
 logo = "DS-light"
 
-########################################
+# ---------- markdown extensions ---------- #
 
 [project.markdown_extensions]
 pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
@@ -105,7 +106,7 @@ md_in_html = {}
 pymdownx.blocks.caption = {}
 pymdownx.arithmatex.generic = true
 
-########################################
+# ---------- plugins ---------- #
 
 [project.plugins.include-markdown]
 
@@ -124,7 +125,7 @@ debug_color = "yellow"
 cards_layout = "custom"
 cards_layout_dir = "docs/layouts"
 
-########################################
+# ---------- extras ---------- #
 
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
