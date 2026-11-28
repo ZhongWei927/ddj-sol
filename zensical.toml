@@ -108,6 +108,7 @@ pymdownx.arithmatex.generic = true
 
 # ---------- plugins ---------- #
 
+[project.plugins.search]
 [project.plugins.include-markdown]
 
 [project.plugins.git-revision-date-localized]
